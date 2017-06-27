@@ -49,8 +49,6 @@ BCHAT = function (e, n) {
 				if(text.length == 0){
 					return false;
 				}
-				if(submitting) return false;
-				submitting = true;
 
 				//check conversation ID
 				var convId = n('ul.chat:visible').attr('id');
